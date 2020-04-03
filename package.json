@@ -1,6 +1,6 @@
 {
   "name": "incognitoz",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Open as many incognito pages with different context as you wish",
   "main": "./lib/openIncognitoPages.js",
   "bin": {
