@@ -1,0 +1,23 @@
+{
+  "name": "incognitoz",
+  "version": "1.0.0",
+  "description": "Open as many incognito pages with different context as you wish",
+  "main": "./lib/openIncognitoPages.js",
+  "bin": {
+    "incognitoz": "./bin/index.js"
+  },
+  "keywords": [
+    "many",
+    "multiple",
+    "incognito",
+    "pages",
+    "cache",
+    "separated"
+  ],
+  "author": "Piotr Wawrzynkiewicz",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^2.1.1"
+  },
+  "preferGlobal": true
+}
