@@ -34,4 +34,4 @@ When you're done you can simply use
 
 `Ctrl+C`
 
-key combination to close the program
+key combination in the console to close the program
