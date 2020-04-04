@@ -1,4 +1,5 @@
 # incognitoz
+
 Small CLI tool using [Puppeteer](https://github.com/puppeteer/puppeteer) under the hood to let you open many incognito pages with separate context and cache.
 
 ## Installation
@@ -23,7 +24,14 @@ If you need some features that pure chromium does not provide, then you can use 
 
 `incognitoz --count <number of pages you want to open> --executablePath <path to your chrome executable>`
 
-So if you want to open 5 pages with separate context and cache and your chrome executable is located at *C:\Program Files (x86)\Google\Chrome\Application\chrome.exe*, use this command:
+So if you want to open 5 pages with separate context and cache and your chrome executable is located at _C:\Program Files (x86)\Google\Chrome\Application\chrome.exe_, use this command:
 
 `incognitoz --count 5 --executablePath "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"`
 
+### Closing all pages
+
+When you're done you can simply use
+
+`Ctrl+C`
+
+key combination to close the program
