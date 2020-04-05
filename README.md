@@ -20,7 +20,7 @@ So if you want to open 5 pages with separate context and cache, then use:
 
 ### With your chrome browser
 
-If you need some features that pure chromium does not provide, then you can use chrome executable installed on your desktop desktop with this library.
+If you need some features that pure chromium does not provide, then you can use chrome executable installed on your desktop with this library.
 
 `incognitoz --count <number of pages you want to open> --executablePath <path to your chrome executable>`
 
